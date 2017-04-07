@@ -1,0 +1,15 @@
+package primerosPasos;
+
+public class Poo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String saludo1 = "Hola";		
+		String saludo2 = new String("Hola");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.jairo.poo;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		//Tipo de dato nombreobjt
+		
+		Vehiculo miVehiculo = new Vehiculo("AAA123", "Hiundai");
+		
+		miVehiculo.arrancar();
+		miVehiculo.frenar();
+		miVehiculo.reverza();
+		miVehiculo.arrancar();
+		
+		ArrayList<Vehiculo> miLista = new ArrayList<Vehiculo>();
+		miLista.add(1);
+		miLista.add(2);
+		miLista.add(3);
+		
+		for(Integer i: miLista){
+			System.out.println(i);			
+		}
+		
+
+	}
+
+}

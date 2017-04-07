@@ -1,0 +1,22 @@
+package com.jairo.poo;
+
+public class Vehiculo {
+	
+	//ATRIBUTOS
+	String matricula;
+	String marca;
+	String modelo;
+	int    anio;
+	
+	//METODOS
+	//Lower Camel Case
+	
+	public void arrancar(){
+		System.out.println("El vehiculo arranco");
+	}
+	
+	public void frenar(){
+		System.out.println("El vehiculo freno");
+	}
+
+}

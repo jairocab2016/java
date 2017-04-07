@@ -31,9 +31,9 @@ public class HolaMundo {
 		double numero = 12345.34599333;
 		System.out.println(Math.round(numero * 100 / 100));
 
-		int[] miarreglo = { 1, 2, 3 };
-		int[][] miarreglo2D = { { 1, 2, 3 }, { 1, 2, 5, 6 } };
-		int[][][] miarreglo3D = { { { 2, 3, 4 } } };
+		//int[] miarreglo = { 1, 2, 3 };
+		//int[][] miarreglo2D = { { 1, 2, 3 }, { 1, 2, 5, 6 } };
+		//int[][][] miarreglo3D = { { { 2, 3, 4 } } };
 
 		// System.out.println(conjuntoEnteros[0]);
 		// System.out.println(conjuntoEnteros[1]);
@@ -47,6 +47,12 @@ public class HolaMundo {
 		conjuntoEnteros3D[0][0][1] = 5;
 
 		// System.out.println(conjuntoEnteros3D[0][0][1]);
+		
+		String saludo1 = "Hola";		
+		String saludo2 = new String("Hola");
+		
+		Integer numero1 = new Integer(0);
+		int numeroPrimitivo = 0;
 
 	}
 }

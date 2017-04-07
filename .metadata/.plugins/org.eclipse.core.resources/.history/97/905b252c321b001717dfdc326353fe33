@@ -1,0 +1,14 @@
+package com.jairo.poo;
+
+public class Vehiculo {
+	
+	//ATRIBUTOS
+	String matricula;
+	String marca;
+	String modelo;
+	int    anio;
+	
+	//METODOS
+	public void matricula();
+
+}
