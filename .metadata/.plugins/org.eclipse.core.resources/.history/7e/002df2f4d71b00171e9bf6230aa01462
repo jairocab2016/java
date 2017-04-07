@@ -27,10 +27,6 @@ public class Conductor {
 		this.tipoLicencia = tipoLicencia;
 	}
 	
-	public void mostrarVehiculo(){
-		System.out.println("Datos Vehiculo");
-	}
-	
 	
 	
 	

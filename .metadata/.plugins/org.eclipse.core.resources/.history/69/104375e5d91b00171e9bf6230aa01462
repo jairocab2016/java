@@ -16,7 +16,7 @@ public class Principal {
 		miVehiculo.arrancar();
 		*/
 		
-		ArrayList<Vehiculo> vehiculos = new ArrayList<>();	
+		ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 		vehiculos.add(miVehiculo);
 		vehiculos.add(new Vehiculo("BBB123", "Chevrolet"));
 		vehiculos.add(new Vehiculo("CCC123", "Mercedez Benz", "s10", 2014));

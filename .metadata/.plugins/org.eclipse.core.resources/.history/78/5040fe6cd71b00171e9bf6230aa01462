@@ -1,0 +1,14 @@
+package com.jairo.conductor;
+
+import com.jairo.vehiculo.Taxi;
+
+public class ConductorTaxi extends Conductor {
+	
+	public ConductorTaxi(String nombre, String tipoLicencia, Taxi taxi) {
+		super(nombre, tipoLicencia);
+		this.taxi = taxi;
+	}
+
+	private Taxi taxi;
+
+}

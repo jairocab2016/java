@@ -19,11 +19,4 @@ public class ConductorTaxi extends Conductor {
 		this.taxi = taxi;
 	}
 
-	@Override
-	public void mostrarVehiculo() {
-		// TODO Auto-generated method stub
-		super.mostrarVehiculo();
-		System.out.println(getTaxi().getMatricula());
-	}
-
 }
