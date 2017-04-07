@@ -1,0 +1,9 @@
+package com.jairo.conductor;
+
+public class Conductor {
+	
+	private String nombre;
+	private String  tipoLicencia;
+	}
+
+}

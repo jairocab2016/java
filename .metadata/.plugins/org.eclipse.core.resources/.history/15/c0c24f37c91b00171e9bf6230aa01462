@@ -1,0 +1,5 @@
+package com.jairo.vehiculo;
+
+public class Bus extends Vehiculo {
+
+}

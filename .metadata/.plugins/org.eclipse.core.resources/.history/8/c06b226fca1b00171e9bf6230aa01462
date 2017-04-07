@@ -1,0 +1,5 @@
+package com.jairo.conductor;
+
+public class ConductorTaxi extends Conductor {
+
+}
