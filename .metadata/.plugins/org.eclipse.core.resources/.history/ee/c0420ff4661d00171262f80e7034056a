@@ -1,0 +1,20 @@
+import java.io.FileWriter;
+import java.io.FilterWriter;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		String texto = "Hola PlatziJava";
+		String ruta = "/home/jairo/java/JavaEntradaSalida/src";
+		String nombreArchivo = "miArchivoPlatzi.txt";
+		
+		try {
+			FileWriter archivo = new FilterWriter(ruta+nombreArchivo);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

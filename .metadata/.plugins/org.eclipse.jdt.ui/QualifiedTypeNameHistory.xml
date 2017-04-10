@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Taxi"/>
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Bus"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
 </qualifiedTypeNameHistroy>
