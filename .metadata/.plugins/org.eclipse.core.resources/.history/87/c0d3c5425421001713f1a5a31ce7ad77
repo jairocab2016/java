@@ -1,0 +1,9 @@
+package com.jairo.vehiculo;
+
+public class VehiculoCRUD {
+	
+	public void insertar(){
+		
+	}
+
+}

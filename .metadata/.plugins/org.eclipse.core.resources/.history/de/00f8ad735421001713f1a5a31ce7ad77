@@ -1,0 +1,10 @@
+package com.jairo.vehiculo;
+
+public class TaxiCRUD {
+	
+	public void agregar(Taxi taxi){
+		
+		String query = "";
+	}
+
+}

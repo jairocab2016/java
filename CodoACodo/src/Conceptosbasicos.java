@@ -18,7 +18,7 @@
 // --		- Estructuras condicionales IF - IF ELSE - SWITCH.
 // --		- Laboratorio de Práctica.
 // -----------------------------------------------------------------------------
-package javainicial;
+
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -27,7 +27,7 @@ import javax.swing.JOptionPane;
  *
  * @author carlos
  */
-public class Parte_01 {
+public class Conceptosbasicos {
 
     public static void main(String args[]) {
 
