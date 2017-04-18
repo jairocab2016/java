@@ -6,4 +6,11 @@
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Taxi"/>
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Bus"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="SystemOut"/>
+<fullyQualifiedTypeName name="poo.LibroCalificaciones"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

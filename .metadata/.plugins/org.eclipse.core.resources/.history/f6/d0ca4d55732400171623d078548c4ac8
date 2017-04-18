@@ -1,0 +1,11 @@
+package poo;
+
+public class LibroCalificaciones {
+	
+	private String nombreDelCurso; //variable de instancia
+	
+	public void mostrarMensaje(String nombreDelCurso){
+		System.out.printf("Bienvenido al Libro de calificaciones para %s!\n", nombreDelCurso);
+	}
+
+}

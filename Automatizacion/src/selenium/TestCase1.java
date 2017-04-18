@@ -1,5 +1,6 @@
 package selenium;
 
+import java.net.URL;
 //import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
@@ -7,8 +8,10 @@ import static org.junit.Assert.*;
 //import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TestCase1 {
   private WebDriver driver;
@@ -18,8 +21,11 @@ public class TestCase1 {
 
   @Before
   public void setUp() throws Exception {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe");
-    driver = new ChromeDriver();
+	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe");
+    //driver = new ChromeDriver();
+	//WebDriver driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.chrome());
+	driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome());
+    
     baseUrl = "http://sr-sigmafront-ad01/";
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
   }

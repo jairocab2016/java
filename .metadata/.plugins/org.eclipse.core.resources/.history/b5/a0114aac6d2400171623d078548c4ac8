@@ -1,0 +1,11 @@
+package poo;
+
+public class LibroCalificaciones {
+	
+	public String mostrarMensaje(){
+		String test = "hola";
+		return test;
+		
+	}
+
+}
