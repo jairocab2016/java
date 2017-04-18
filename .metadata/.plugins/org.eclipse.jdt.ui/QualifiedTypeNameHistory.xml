@@ -3,9 +3,9 @@
 <fullyQualifiedTypeName name="com.jairo.poo.Vehiculo"/>
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Vehiculo"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.jairo.vehiculo.Taxi"/>
 <fullyQualifiedTypeName name="com.jairo.vehiculo.Bus"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
@@ -13,4 +13,12 @@
 <fullyQualifiedTypeName name="SystemOut"/>
 <fullyQualifiedTypeName name="poo.LibroCalificaciones"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+=======
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.jairo.basededatos.BaseDeDatos"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.jairo.vehiculo.Taxi"/>
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 </qualifiedTypeNameHistroy>

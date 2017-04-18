@@ -1,0 +1,29 @@
+package com.jairo.basededatos;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class BaseDeDatos {
+	
+	private final String URL 		= "jdbc:mysql//localhost:3306/";
+	private final String DB 		= "testing";
+	private final String USUARIO	= "root";
+	private final String PASSWORD 	= "root";
+	
+	public Connection conexion = null;
+	
+	public Connection conectar(){
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} finally{
+			
+			return conexion;			
+		}
+		
+	}
+
+}

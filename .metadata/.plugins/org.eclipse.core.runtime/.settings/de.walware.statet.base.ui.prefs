@@ -3,8 +3,15 @@
 //editors/optionsProposals.background=32,36,37
 //editors/optionsProposals.foreground=216,216,216
 eclipse.preferences.version=1
+<<<<<<< HEAD
 editors/options/Parameters.background=30,30,30
 editors/options/Parameters.foreground=216,216,216
 editors/options/Proposals.background=30,30,30
 editors/options/Proposals.foreground=216,216,216
+=======
+editors/options/Parameters.background=39,40,34
+editors/options/Parameters.foreground=207,191,173
+editors/options/Proposals.background=39,40,34
+editors/options/Proposals.foreground=207,191,173
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 overriddenByCSS=,editors/optionsParameters.foreground,editors/optionsProposals.foreground,editors/optionsParameters.background,MatchingBrackets.color,editors/optionsProposals.background,

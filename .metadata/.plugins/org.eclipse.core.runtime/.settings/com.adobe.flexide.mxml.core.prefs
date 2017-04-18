@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 asASDocBold=false
 asASDocItalic=false
 eclipse.preferences.version=1
@@ -19,4 +20,9 @@ mxmlTagBold=false
 mxmlTagItalic=false
 mxmlTagStrikethrough=false
 mxmlTagUnderline=false
+=======
+asASDocItalic=false
+eclipse.preferences.version=1
+mxmlCommentItalic=false
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 overriddenByCSS=,mxmlTagColor,mxmlTextColor,asASDocColor,mxmlCommentItalic,mxmlProcessingInstructionColor,asASDocItalic,mxmlCommentColor,mxmlStringColor,mxmlComponentTagColor,

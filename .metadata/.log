@@ -3567,6 +3567,7 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.resources 2 10035 2017-04-09 23:55:51.714
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+<<<<<<< HEAD
 !SESSION 2017-04-12 16:20:49.171 -----------------------------------------------
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_77
@@ -3813,6 +3814,27 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
 	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+=======
+!SESSION 2017-04-14 14:48:50.000 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/jairo/java/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.event 4 0 2017-04-14 16:37:43.425
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/REMOVE] {ChangedElement=org.eclipse.e4.ui.model.application.ui.advanced.impl.PlaceholderImpl@42cc183e (elementId: org.eclipse.ui.editorss, tags: [], contributorURI: null) (widget: Composite {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer@225ddf5f, toBeRendered: true, onTop: false, visible: true, containerData: 7500, accessibilityPhrase: null) (closeable: false), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.advanced.impl.PlaceholderImpl@42cc183e (elementId: org.eclipse.ui.editorss, tags: [], contributorURI: null) (widget: Composite {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer@225ddf5f, toBeRendered: true, onTop: false, visible: true, containerData: 7500, accessibilityPhrase: null) (closeable: false), AttName=tags, EventType=REMOVE, Position=0, OldValue=Maximized, Widget=Composite {}}, AttName=tags, EventType=REMOVE, Position=0, OldValue=Maximized, Widget=Composite {}} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@5c959cb4
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5414)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:53)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
 	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
 	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
@@ -3824,6 +3846,7 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
 	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
 	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1331)
 	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1590)
@@ -3927,6 +3950,20 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
 	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
+=======
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:462)
+	at org.eclipse.ui.internal.WorkbenchPage.setPartState(WorkbenchPage.java:4413)
+	at org.eclipse.ui.internal.WorkbenchPage.unzoomSharedArea(WorkbenchPage.java:5439)
+	at org.eclipse.ui.internal.WorkbenchPage.unzoomSharedArea(WorkbenchPage.java:5451)
+	at org.eclipse.ui.internal.WorkbenchPage.access$15(WorkbenchPage.java:5449)
+	at org.eclipse.ui.internal.WorkbenchPage$7.handleEvent(WorkbenchPage.java:5496)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5414)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
 	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
@@ -3940,6 +3977,7 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
 	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
 	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1331)
 	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1590)
@@ -4663,6 +4701,34 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3144)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+=======
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1350)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1590)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1541)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1511)
+	at com.github.eclipsecolortheme.preferences.ColorThemePreferencePage.performOk(ColorThemePreferencePage.java:232)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:464)
+	at org.eclipse.jface.preference.PreferencePage$2.widgetSelected(PreferencePage.java:294)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5227)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4561)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4151)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:63)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5227)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4561)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4151)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -4678,6 +4744,7 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<<<<<<< HEAD
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
@@ -4742,10 +4809,40 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.recommenders.rcp 4 18 2017-04-17 14:49:23.526
 !MESSAGE Failed to resolve selection in ‘=Automatizacion/src<selenium{Selenium2Example.java’ at offset 19.
+=======
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.getActiveWindowService(ApplicationPartServiceImpl.java:39)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:90)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:861)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:369)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 90 more
+!SESSION 2017-04-14 16:53:06.656 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-04-14 17:23:18.213
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 !STACK 0
 org.eclipse.recommenders.utils.Logs$LogTraceException
 	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
 	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+<<<<<<< HEAD
 	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
 	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
 	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
@@ -5228,6 +5325,19 @@ java.lang.IllegalStateException: Expected the service to be RUNNING, but the ser
 	at org.eclipse.recommenders.internal.models.rcp.ProjectCoordinateProvider.resolve(ProjectCoordinateProvider.java:104)
 	at org.eclipse.recommenders.internal.overrides.rcp.OverrideCompletionSessionProcessor.findProjectCoordinate(OverrideCompletionSessionProcessor.java:115)
 	at org.eclipse.recommenders.internal.overrides.rcp.OverrideCompletionSessionProcessor.startSession(OverrideCompletionSessionProcessor.java:85)
+=======
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:212)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.overrides.rcp.RcpOverrideModelProvider.acquireModel(RcpOverrideModelProvider.java:66)
+	at org.eclipse.recommenders.internal.overrides.rcp.OverrideCompletionSessionProcessor.hasModel(OverrideCompletionSessionProcessor.java:121)
+	at org.eclipse.recommenders.internal.overrides.rcp.OverrideCompletionSessionProcessor.startSession(OverrideCompletionSessionProcessor.java:86)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.fireStartSession(IntelligentCompletionProposalComputer.java:304)
 	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.computeCompletionProposals(IntelligentCompletionProposalComputer.java:170)
 	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:333)
@@ -5250,9 +5360,15 @@ java.lang.IllegalStateException: Expected the service to be RUNNING, but the ser
 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
 	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
 	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+<<<<<<< HEAD
 	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
+=======
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
 	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
@@ -5268,6 +5384,7 @@ java.lang.IllegalStateException: Expected the service to be RUNNING, but the ser
 	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
 	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+<<<<<<< HEAD
 	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1270)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1078)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
@@ -5283,6 +5400,25 @@ java.lang.IllegalStateException: Expected the service to be RUNNING, but the ser
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3822)
+=======
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1605)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1339)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1366)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1349)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1378)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:764)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3465)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:801)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2000)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5827)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5498)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:9545)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1275)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2495)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4149)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -5298,6 +5434,7 @@ java.lang.IllegalStateException: Expected the service to be RUNNING, but the ser
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<<<<<<< HEAD
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
@@ -6518,3 +6655,12 @@ Caused by: java.lang.IllegalArgumentException: assertion failed.
 	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 	at java.lang.Thread.run(Unknown Source)
+=======
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811

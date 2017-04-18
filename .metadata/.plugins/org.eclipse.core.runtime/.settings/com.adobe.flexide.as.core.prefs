@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 asASDocBold=false
 asASDocItalic=false
 asBracketBold=false
@@ -36,5 +37,12 @@ asVarBold=false
 asVarItalic=false
 asVarStrikethrough=false
 asVarUnderline=false
+=======
+asASDocItalic=false
+asClassBold=false
+asClassStrikethrough=false
+asClassUnderline=false
+asCommentItalic=false
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 eclipse.preferences.version=1
 overriddenByCSS=,asMetadataColor,asReservedColor,asCommentColor,asFunctionColor,asTraceColor,asStringColor,asASDocItalic,asClassUnderline,asCommentItalic,asPackageColor,asBracketColor,asClassBold,asVarColor,asASDocColor,asTextColor,asInterfaceColor,asOperatorColor,asClassColor,asClassStrikethrough,

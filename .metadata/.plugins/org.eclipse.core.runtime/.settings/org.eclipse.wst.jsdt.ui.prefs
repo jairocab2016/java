@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 fontPropagated=true
 org.eclipse.jface.textfont=1|Consolas|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.wst.jsdt.ui.editor.tab.width=
@@ -8,3 +9,6 @@ proposalOrderMigrated=true
 tabWidthPropagated=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
+=======
+overriddenByCSS=,java_keyword_return,java_doc_default,java_doc_link,java_default,java_multi_line_comment,content_assist_parameters_foreground,content_assist_proposals_foreground,java_keyword,semanticHighlighting.localVariableDeclaration.enabled,java_single_line_comment,content_assist_proposals_background,semanticHighlighting.localVariable.enabled,semanticHighlighting.methodDeclarationName.color,semanticHighlighting.localVariableDeclaration.color,semanticHighlighting.localVariable.color,java_comment_task_tag,content_assist_parameters_background,java_string,tagName,semanticHighlighting.methodDeclarationName.enabled,java_doc_tag,java_bracket,CONTENT_ASSIST_BACKGROUND_COLOR,java_doc_keyword,java_operator,CONTENT_ASSIST_FOREGROUND_COLOR,
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811

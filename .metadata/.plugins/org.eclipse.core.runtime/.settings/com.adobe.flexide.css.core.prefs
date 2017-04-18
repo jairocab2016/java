@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cssCommentBold=false
 cssCommentItalic=true
 cssCommentStrikethrough=false
@@ -34,5 +35,8 @@ cssSymbolBold=false
 cssSymbolItalic=false
 cssSymbolStrikethrough=false
 cssSymbolUnderline=false
+=======
+cssCommentItalic=false
+>>>>>>> 4fa6da086a11f6bd6633daa0cdeed1207e15c811
 eclipse.preferences.version=1
 overriddenByCSS=,cssSelectorColor,cssImportColor,cssPropertyNameColor,cssPropertyValueColor,cssFontFaceColor,cssCommentColor,cssMediaColor,cssTextColor,cssStringColor,cssCommentItalic,cssSymbolColor,cssNamespaceColor,

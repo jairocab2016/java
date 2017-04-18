@@ -1,0 +1,13 @@
+package com.jairo.vehiculo;
+
+import java.sql.Statement;
+
+public class TaxiCRUD {
+	
+	public void agregar(Taxi taxi){
+		
+		String query = "";
+		Statement sentecia = null;
+	}
+
+}
