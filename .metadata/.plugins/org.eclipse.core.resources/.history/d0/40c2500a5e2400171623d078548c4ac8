@@ -1,0 +1,7 @@
+
+public class SystemOut {
+	
+	public void main(String[] args){
+		System.out.println("holaa");
+	}
+}

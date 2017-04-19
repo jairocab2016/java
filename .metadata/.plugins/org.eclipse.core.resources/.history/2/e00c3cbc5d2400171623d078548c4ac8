@@ -1,0 +1,8 @@
+
+public class SystemOut {
+	
+	public void main(String[] args){
+	S ys te m .o u t.p rin tf( “ %s\n%s\n” ,
+			“ Bienvenido a” , “ la programación en J a v a !” ) ;
+	}
+}

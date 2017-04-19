@@ -1,0 +1,13 @@
+package poo;
+
+public class LibroCalificaciones {
+	
+	public int mostrarHola(String mensaje){
+		return mensaje;
+	}
+	
+	public void mostrarMensaje(){
+		System.out.println("Bienvenido al Libro de calificaciones");
+	}
+
+}
