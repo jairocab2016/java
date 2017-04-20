@@ -1,8 +1,7 @@
 package com.jairo.vehiculo;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
-
+//import java.util.ArrayList;
 import com.jairo.basededatos.BaseDeDatos;
 
 public class Principal {
@@ -35,15 +34,15 @@ public class Principal {
 //			
 //		}
 		
-//		BaseDeDatos baseDatos = new BaseDeDatos();
-//		baseDatos.conectar();
+		BaseDeDatos baseDatos = new BaseDeDatos();
+		baseDatos.conectar();
 		
-		Taxi taxi = new Taxi("AAA123", "Hiundai", "i10",1990);
-		taxi.setAnio(2000);
-		
-		TaxiCRUD taxiCRUD = new TaxiCRUD();
-		taxiCRUD.agregar(taxi);
-		
+//		Taxi taxi = new Taxi("AAA123", "Hiundai", "i10",1990);
+//		taxi.setAnio(2000);
+//		
+//		TaxiCRUD taxiCRUD = new TaxiCRUD();
+//		taxiCRUD.agregar(taxi);
+//		
 
 	}
 
