@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Ejercicio10_DosArreglos {
+	
+	
+	public static void main(String[] args) {
+		
+		String [] listaColoresAulas = {"azul", "verde", "amarillo"};
+		int [] listaCapacAulas = {30,35,40};
+		int cantAlumIns;
+		
+		Scanner lector = new Scanner(System.in);
+		System.out.println("Ingresa cantidad de alumnos: ");
+		cantAlumIns = lector.nextInt();
+		int capacidadAulaAux = listaCapacAulas[0];
+		
+		for (int i = 0; i < listaCapacAulas.length; i++) {
+			int capacidadAulaActual = listaCapacAulas[i];
+			if (capacidadAulaActual >= cantAlumIns && capacidadAulaActual < capacidadAulaAux) {
+				
+			}
+			
+		}
+		
+		
+	}
+	
+
+}

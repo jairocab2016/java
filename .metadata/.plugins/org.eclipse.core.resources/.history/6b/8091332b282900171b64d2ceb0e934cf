@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Ejercicio10_DosArreglos {
+	
+	
+	public static void main(String[] args) {
+		
+		String [] aula = {"azul", "verde", "amarillo"};
+		int [] cantBancos = {40,35,30};
+		int cantidadDeAlumnos;
+		
+		Scanner lector = new Scanner(System.in);
+		
+		do {
+			System.out.println("Ingresa la cantidad de alumnos, debe estar entre 0 y 40");
+			cantidadDeAlumnos = lector.nextInt();
+			
+		} while (cantidadDeAlumnos < 0 || cantidadDeAlumnos > 40);
+		
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Ejercicio9_ArregloBooleano {
+	
+	public static void main(String[] args) {
+		
+//		Diseñar un algoritmo que recorra las butacas de una sala de cine y determine cuántas butacas desocupadas hay en la sala. 
+//		Suponga que inicialmente tiene un array (arreglo) con valores booleanos que si es verdadero(verdadero) implica que está ocupada y 
+//		si es falso(falso) la butaca está desocupada. 
+//		Tenga en cuenta que el array deberá ser creado e inicializado al principio del algoritmo.
+		
+		Scanner lector = new Scanner(System.in);
+		
+		boolean[] butacas = {false, true, false, true};
+		
+		int butacasVacias = 0; //contador que guarda las butacas vacias
+		
+		for (int i = 0; i < butacas.length; i++) {
+			
+			boolean butacaActual = butacas[i];
+		}
+		
+	}
+
+}

@@ -1,4 +1,4 @@
-=\=\=\=\=\=\=
+=**/*.min.js,**/node_modules/*,**/bower_components/*
 <<<<<<<=HEAD
 >>>>>>>=4fa6da086a11f6bd6633daa0cdeed1207e15c811
 eclipse.preferences.version=1
