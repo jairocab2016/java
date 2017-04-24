@@ -1,7 +1,0 @@
-package com.jairo.basededatos;
-
-public class BaseDeDatos {
-	
-	private final String URL = "jdbc:mysql//";
-
-}
