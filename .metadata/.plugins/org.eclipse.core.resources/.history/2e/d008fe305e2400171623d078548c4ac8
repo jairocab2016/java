@@ -1,9 +1,0 @@
-
-public class SystemOut {
-	
-	public static void main(String[] args) {
-	
-		System.out.printf("%s\n%s\n" , " Bienvenido a" , " la programación en J a v a !" );
-		System.out.println("holaaa");
-	}
-}
