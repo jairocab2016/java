@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snmp4j-2.5.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PollerSNMP/lib/snmp4j-2.5.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

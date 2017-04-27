@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="seleniumJenkins-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/seleniumJenkins/target/seleniumJenkins-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
