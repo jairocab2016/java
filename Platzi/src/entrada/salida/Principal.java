@@ -1,17 +1,19 @@
+package entrada.salida;
 import java.io.FileWriter;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
-		String texto = "Hola Jairo";
-		String ruta = "/home/jairo/java/JavaEntradaSalida/src/";
+		String texto = "127.0.0.1";
+		String ruta = "./src/";
 		String nombreArchivo = "miArchivoPlatzi.txt";
 		
 		try {
 			FileWriter archivo = new FileWriter(ruta+nombreArchivo);
 			archivo.write(texto);
 			archivo.close();
+			System.out.println("Se guardo correctamente la informacion");
 		} catch (Exception e) {
 			
 		}

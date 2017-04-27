@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio8_For {
+public class E8_For {
 	
 	public static void main(String[] args) {
 		
@@ -17,7 +17,7 @@ public class Ejercicio8_For {
 			
 			System.out.println("Ingresa el numero " + i);
 			numero = lector.nextFloat();
-			acumulador = acumulador + numero;				
+			acumulador = acumulador + numero;			
 		}
 		
 		promedio =  acumulador/4;

@@ -1,6 +1,6 @@
-import java.util.Scanner;
 
-public class Ejercicio9_ArregloBooleano {
+
+public class E9_Booleano {
 	
 	public static void main(String[] args) {
 		
