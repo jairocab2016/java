@@ -1,0 +1,5 @@
+package webdriver.commands;
+
+public class NavigationCommandsExercise {
+
+}
