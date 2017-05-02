@@ -1,5 +1,0 @@
-package com.jairo.conductor;
-
-public class ConductoBus extends Conductor {
-
-}
