@@ -1,5 +1,6 @@
 package selenium;
 
+import java.net.URL;
 //import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
@@ -7,8 +8,10 @@ import static org.junit.Assert.*;
 //import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TestCase2 {
   private WebDriver driver;
@@ -18,8 +21,11 @@ public class TestCase2 {
 
   @Before
   public void setUp() throws Exception {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe");
-    driver = new ChromeDriver();
+	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe");
+    //driver = new ChromeDriver();
+	//WebDriver driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.chrome());
+	driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome());
+    
     baseUrl = "http://sr-sigmafront-ad01/";
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
   }
@@ -32,35 +38,14 @@ public class TestCase2 {
     driver.findElement(By.name("password")).clear();
     driver.findElement(By.name("password")).sendKeys("123456");
     driver.findElement(By.cssSelector("button.btn.btn-primary")).click();
-    driver.findElement(By.linkText("Toggle navigation")).click();
-    driver.findElement(By.linkText("Administración")).click();
-    driver.findElement(By.linkText("CTMS")).click();
-    driver.findElement(By.id("cmts-search")).clear();
-    driver.findElement(By.id("cmts-search")).sendKeys("CMT2.CBS1-E6K");
-    driver.findElement(By.id("cmts-search")).sendKeys(Keys.ENTER);
+    driver.findElement(By.xpath("//html/body/div[1]/header/nav/a")).click();
+    driver.findElement(By.xpath("//"));
     
-    driver.findElement(By.id("cmts-search")).clear();
-    driver.findElement(By.id("cmts-search")).sendKeys("10.100.152.17");
-    driver.findElement(By.id("cmts-search")).sendKeys(Keys.ENTER);
-    driver.findElement(By.id("cmts-search")).clear();
-    driver.findElement(By.id("cmts-search")).sendKeys("10.100.150.176");
-    driver.findElement(By.id("cmts-search")).sendKeys(Keys.ENTER);
-    
-    driver.findElement(By.id("cmts-search")).clear();
-    driver.findElement(By.id("cmts-search")).sendKeys("test");
-    driver.findElement(By.id("cmts-search")).sendKeys(Keys.ENTER);
-    
-    driver.findElement(By.id("cmts-search")).clear();
-    driver.findElement(By.id("cmts-search")).sendKeys("testing");
-    driver.findElement(By.id("cmts-search")).sendKeys(Keys.ENTER);
-    
-    driver.findElement(By.xpath("//li/a/span")).click();
-    driver.findElement(By.linkText("Salir")).click();
   }
 
   @After
   public void tearDown() throws Exception {
-    driver.quit();
+    //driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
       fail(verificationErrorString);
@@ -85,7 +70,7 @@ private boolean isAlertPresent() {
     } catch (NoAlertPresentException e) {
       return false;
     }
-  } 
+  }
 
   @SuppressWarnings("unused")
 private String closeAlertAndGetItsText() {
