@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493302364726_2" label="Platzi" name="Platzi">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Platzi_POO" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Platzi" type="4"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493302364726_2" label="Platzi" name="Platzi"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491527731190_0" label="Window Working Set" name="Aggregate for window 1491366377179"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492694971036_1" label="Window Working Set" name="Aggregate for window 1492694971036"/>
 </workingSetManager>
