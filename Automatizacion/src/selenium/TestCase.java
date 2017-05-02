@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 //import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class TestCase2 {
+public class TestCase {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
