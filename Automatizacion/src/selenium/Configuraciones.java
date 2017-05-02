@@ -24,22 +24,25 @@ public class Configuraciones {
 	@Test
 	public void testConfiguraciones() throws Exception {
 		driver.get(baseUrl + "/");
-		driver.findElement(By.linkText("Toggle navigation")).click();
-		driver.findElement(By.linkText("Configuración")).click();
-		driver.findElement(By.linkText("Transponder")).click();
-		driver.findElement(By.name("prefijo")).clear();
-		driver.findElement(By.name("prefijo")).sendKeys("asdd");
-		driver.findElement(By.xpath("(//button[@type='button'])[3]")).click();
-		assertTrue(isElementPresent(By.linkText("Toggle navigation")));
-		driver.findElement(By.linkText("Toggle navigation")).click();
-		assertTrue(isElementPresent(By.xpath("//li[3]/a/span")));
-		driver.findElement(By.linkText("Configuración")).click();
-		assertTrue(isElementPresent(By.linkText("Transponder")));
+		driver.findElement(By.name("email")).clear();
+	    driver.findElement(By.name("email")).sendKeys("admin@gmail.com");
+	    driver.findElement(By.name("password")).clear();
+	    driver.findElement(By.name("password")).sendKeys("123456");
+	    driver.findElement(By.cssSelector("button.btn.btn-primary")).click();
+	    
+	    driver.findElement(By.linkText("Toggle navigation")).click();
+	    driver.findElement(By.xpath("//li[3]/a/span")).click();
+	    boolean confirm = driver.findElement(By.cssSelector(".margin.btn.btn-success.submitForm.pull-right")).isEnabled();
+	    System.out.println(confirm);
+	    
+		
+		
+				
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		driver.quit();
+		//driver.quit();
 		String verificationErrorString = verificationErrors.toString();
 		if (!"".equals(verificationErrorString)) {
 			fail(verificationErrorString);
