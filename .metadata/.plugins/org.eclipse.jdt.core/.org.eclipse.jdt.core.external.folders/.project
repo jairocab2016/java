@@ -12,12 +12,12 @@
 		<link>
 			<name>.link0</name>
 			<type>2</type>
-			<location>C:/Users/jjcardozo/Downloads/seleniumjava/selenium/java</location>
+			<location>C:/Users/jjcardozo/Downloads/seleniumjava/src</location>
 		</link>
 		<link>
 			<name>.link1</name>
 			<type>2</type>
-			<location>C:/Users/jjcardozo/Downloads/seleniumjava/src</location>
+			<location>C:/Users/jjcardozo/Downloads/seleniumjava/selenium/java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
