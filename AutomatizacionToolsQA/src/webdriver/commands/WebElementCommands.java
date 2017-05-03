@@ -68,6 +68,11 @@ public class WebElementCommands {
 		String tagName2 = driver.findElement(By.xpath(".//*[@id='pie_register']/li[2]/div/div/input[1]")).getTagName();
 		System.out.println(tagName2);
 		
+		WebElement element10 = driver.findElement(By.xpath(".//*[@id='pie_register']/li[2]/div/div/input[1]"));
+		String cssValue = element10.getCssValue("background-color");
+		//Oe can be written as
+		String cssValue2 = driver.findElement(By.xpath(".//*[@id='pie_register']/li[2]/div/div/input[1]")).getCssValue("background-color");
+		
 		
 		
 		
