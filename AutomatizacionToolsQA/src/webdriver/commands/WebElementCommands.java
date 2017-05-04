@@ -1,6 +1,8 @@
 package webdriver.commands;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -72,6 +74,18 @@ public class WebElementCommands {
 		String cssValue = element10.getCssValue("background-color");
 		//Oe can be written as
 		String cssValue2 = driver.findElement(By.xpath(".//*[@id='pie_register']/li[2]/div/div/input[1]")).getCssValue("background-color");
+		
+		WebElement element11 = driver.findElement(By.id("username"));
+		String attValue = element11.getAttribute("class");
+		System.out.println(attValue);
+		
+		WebElement element12 = driver.findElement(By.name("pie_submit"));
+		Dimension dimensions = element12.getSize();
+		System.out.println("Height : " + dimensions.height + " Width : "+ dimensions.width);
+		
+		WebElement element13 = driver.findElement(By.name("pie_submit"));
+		Point point = element13.getLocation();
+		System.out.println("X cordinate : " + point.x + " Y cordinate: " + point.y);
 		
 		
 		
