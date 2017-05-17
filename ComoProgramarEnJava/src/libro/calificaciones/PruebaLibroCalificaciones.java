@@ -1,4 +1,4 @@
-package poo;
+package libro.calificaciones;
 import java.util.Scanner;
 
 public class PruebaLibroCalificaciones {

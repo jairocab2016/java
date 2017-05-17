@@ -24,11 +24,15 @@ public class Robot {
 			
 			for(int y=0; y<a; y++){
 				
-				if(y==0 || (y+1) == a)
+				if(y==0 || (y+1) == a) {
 					
-					System.out.print("*");				
-				else
+					System.out.print("*");
+					
+				} else {
+					
 					System.out.print(" ");
+					
+				}
 			}
 		}
 	}

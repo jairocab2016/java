@@ -1,4 +1,4 @@
-package poo;
+package cuenta;
 
 public class Cuenta {
 	

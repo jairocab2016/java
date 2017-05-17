@@ -1,4 +1,4 @@
-package poo;
+package libro.calificaciones;
 
 public class LibroCalificaciones {
 	
