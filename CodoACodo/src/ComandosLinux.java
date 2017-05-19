@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class ComprobarConexionJava {
+public class ComandosLinux {
 	public static void main(String[] args) {
 		try {
 			Scanner leer = new Scanner(System.in);

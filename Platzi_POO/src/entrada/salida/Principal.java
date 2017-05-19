@@ -15,6 +15,7 @@ public class Principal {
 			archivo.close();
 			System.out.println("Se guardo correctamente la informacion");
 		} catch (Exception e) {
+			System.out.println(e.getMessage());
 			
 		}
 

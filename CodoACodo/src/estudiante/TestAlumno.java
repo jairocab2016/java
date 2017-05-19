@@ -14,6 +14,8 @@ public class TestAlumno {
 		
 		for (int i = 0; i < estudiantes.length; i++) {
 			
+			System.out.println("---<>---");
+			
 			System.out.println("Ingresa el nombre del estudiante " + i);
 			String nombre = lector.nextLine();
 			

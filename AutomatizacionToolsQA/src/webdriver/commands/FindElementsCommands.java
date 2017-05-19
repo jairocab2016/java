@@ -37,7 +37,7 @@ public class FindElementsCommands {
 		WebElement element5 = driver.findElement(By.partialLinkText("Partial"));
 		element5.click();
 		
-		System.out.println("Perfeeeeeeeeeeect");
+		
 		
 	}
 }
