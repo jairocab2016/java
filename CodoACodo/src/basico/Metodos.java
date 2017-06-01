@@ -1,3 +1,4 @@
+package basico;
 public class Metodos {
 	
 	public void mostrar(int valor){

@@ -1,3 +1,4 @@
+package basico;
 
 public class ArreglosDias {
 	public static void main(String[] args) {
