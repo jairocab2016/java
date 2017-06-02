@@ -148,6 +148,7 @@ public class Ascensor {
 								pisoSolicitado);
 						modoViaje = "";
 					} else {
+						
 						System.out.println("Ya se encuentra en el piso solicitado");
 					}
 
