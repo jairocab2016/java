@@ -1,4 +1,4 @@
-package cuadrado;
+package ejercicio.cuadrado;
 
 import java.io.BufferedReader;
 import java.io.IOException;

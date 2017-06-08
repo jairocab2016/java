@@ -1,4 +1,4 @@
-package car.test;
+package car;
 
 public class Auto {
 	

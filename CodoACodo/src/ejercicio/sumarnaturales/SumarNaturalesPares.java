@@ -1,4 +1,4 @@
-package program.sumarnaturales;
+package ejercicio.sumarnaturales;
 
 public class SumarNaturalesPares {
 	

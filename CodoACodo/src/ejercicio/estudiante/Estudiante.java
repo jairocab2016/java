@@ -1,4 +1,4 @@
-package estudiante;
+package ejercicio.estudiante;
 
 public class Estudiante implements Comparable<Estudiante>{
 
