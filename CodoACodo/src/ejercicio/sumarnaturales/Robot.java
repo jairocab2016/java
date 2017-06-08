@@ -1,4 +1,4 @@
-package program.sumarnaturales;
+package ejercicio.sumarnaturales;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

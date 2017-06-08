@@ -1,4 +1,4 @@
-package cuadrado;
+package ejercicio.cuadrado;
 
 public class Cuadrado_Asterisco {
 
