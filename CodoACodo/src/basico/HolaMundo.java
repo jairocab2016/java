@@ -1,4 +1,4 @@
-package basico;
+//package basico;
 
 public class HolaMundo {
 

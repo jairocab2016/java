@@ -38,7 +38,5 @@ public class DropDownMultipleSelectExercise2 {
 		}
 		
 		comands.deselectAll();
-		
-		
 	}
 }
