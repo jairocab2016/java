@@ -1,0 +1,17 @@
+package swing;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+
+public class MiVentana extends JFrame {
+	
+	public MiVentana() {
+		
+		super("Xperiencia");
+		setSize(400,300);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container cp = 
+		
+	}
+}

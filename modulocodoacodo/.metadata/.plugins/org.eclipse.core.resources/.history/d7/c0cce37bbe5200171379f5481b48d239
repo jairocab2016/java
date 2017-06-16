@@ -1,0 +1,14 @@
+package swing;
+
+import javax.swing.JFrame;
+
+public class MiVentana {
+	
+	public VentanaTest() {
+		
+		super("Xperiencia");
+		f.setSize(400,300);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+}
