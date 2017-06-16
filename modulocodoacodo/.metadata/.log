@@ -472,3 +472,13 @@ java.net.ConnectException: Connection timed out: connect
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-06-14 21:20:29.659 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-14 21:21:36.755
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView' id and the 'Icon Designer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
