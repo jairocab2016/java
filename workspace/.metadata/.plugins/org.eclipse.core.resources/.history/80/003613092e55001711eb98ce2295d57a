@@ -1,0 +1,14 @@
+package hola.mundo;
+
+//import java.util.Iterator;
+import java.util.Scanner;
+
+public class HolaMundo2 {
+
+	public static void main(String[] args) {
+		
+		int [] String dias = {
+				
+		}
+	}
+}

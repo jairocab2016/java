@@ -1,0 +1,30 @@
+package hola.mundo;
+
+//import java.util.Iterator;
+import java.util.Scanner;
+
+public class HolaMundo2 {
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+		String [] dias = {"lunes",
+						  "martes",
+						  "Miercoles",
+						  "Jueves",
+						  "Viernes"				
+		};
+		
+		Metodos met = new Metodos();
+		
+		int num = met.posicionDia("viernes", dias);
+		System.out.println(num);
+		
+		
+		String[] alumnos = new String[5];
+		met.llenarArreglo();
+		
+	}
+}

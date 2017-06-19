@@ -1,0 +1,25 @@
+package hola.mundo;
+
+import java.util.Scanner;
+
+public class Metodos {
+	
+	
+	public void llenarArreglo(String[] arreglo)
+	{
+		Scanner lector = new Scanner(System.in);		
+		for (int i = 0; i < arreglo.length; i++) {
+			arreglo[i] = lector.nextLine();
+		}
+		//lector.close();
+	}
+	
+	public void mostrarArreglo(String[] arreglo) 
+	{
+		for (String string : arreglo) {
+			System.out.println(string);
+		}
+	}
+	
+
+}
