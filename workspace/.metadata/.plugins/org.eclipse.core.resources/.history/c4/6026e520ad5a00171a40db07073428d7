@@ -1,0 +1,12 @@
+package hola.mundo;
+
+//import java.util.Iterator;
+import java.util.Scanner;
+
+public class HolaMundo2 {
+
+	public static void main(String[] args) 
+	{
+		String[][] lenguajes = new String[2][3]		
+	}
+}

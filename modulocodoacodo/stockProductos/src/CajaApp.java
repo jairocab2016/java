@@ -15,16 +15,18 @@ public class CajaApp {
 		
 		controlador.setCantidadProductosComprados( cantidadProductos );
 		
-		for (int i = 0; i < cantidadProductos; i++) {
-			
+		for (int i = 0; i < cantidadProductos; i++) 
+		{	
 			String nombre = vista.buscarProducto();
 			
 			Productos producto = controlador.buscarProductoPorNombre( nombre );
 			
-			if( producto != null ){
-				
+			if( producto != null )
+			{	
 				comprados[ i ] = producto;	
-			} else {
+			} 
+			else 
+			{
 				comprados[ i ] = null;
 				vista.mostrarMensaje( "No existe el producto en nuestra base de datos" );
 			}

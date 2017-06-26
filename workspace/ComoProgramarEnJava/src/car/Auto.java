@@ -7,22 +7,19 @@ public class Auto {
 	private String modelo;
 	private  int    anio;
 	
-	public Auto (String nombre) {
-		
+	public Auto (String nombre) 
+	{	
 		super();
-		
-		this.nombre = nombre;
-		
+		this.nombre = nombre;	
 	}
 	
-	public String getNombre () {
-		
-		return this.nombre;
-		
+	public String getNombre () 
+	{	
+		return this.nombre;	
 	}
 	
-	public void setNombre (String valor) {
-		
+	public void setNombre (String valor) 
+	{	
 		this.nombre = valor;
 	}
 	

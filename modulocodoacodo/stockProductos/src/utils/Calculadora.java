@@ -12,7 +12,7 @@ public class Calculadora {
 		double acumulado = 0;
 		for (int i = 0; i < valores.length; i++) 
 		{
-			acumulado += valores[ i ]; 
+			acumulado += valores[ i ];
 		}
 		return acumulado;
 	}

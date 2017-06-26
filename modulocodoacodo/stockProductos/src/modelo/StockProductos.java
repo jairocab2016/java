@@ -4,14 +4,13 @@ public class StockProductos {
 	
 	Productos[] productos = new Productos[5];
 	
-	public StockProductos() {
-		
-		llenarProductos();
-		
+	public StockProductos() 
+	{
+		llenarProductos();	
 	}
 	
-	public void llenarProductos(){
-		
+	public void llenarProductos()
+	{
 		Productos arroz = new Productos();
 		
 		arroz.setNombre("Santa Ana");
@@ -40,8 +39,8 @@ public class StockProductos {
 		
 	}
 	
-	public Productos[] getProductos(){
+	public Productos[] getProductos()
+	{
 		return productos;
 	}
-
 }

@@ -9,14 +9,15 @@ public class Caja {
 	Productos[] productosComprados;
 	int cantidadProductosComprados = 0;
 	
-	public Productos buscarProductoPorNombre( String nombre ){
-		
+	public Productos buscarProductoPorNombre( String nombre )
+	{		
 		Productos productoEncontrado = null;
 		StockProductos stock = new StockProductos();
 		
-		for (int i = 0; i < stock.getProductos().length; i++) {
-			
-			if ( nombre.equalsIgnoreCase( stock.getProductos()[ i ].getNombre() ) ) {
+		for (int i = 0; i < stock.getProductos().length; i++) 
+		{			
+			if ( nombre.equalsIgnoreCase( stock.getProductos()[ i ].getNombre() ) ) 
+			{
 				productoEncontrado = stock.getProductos()[ i ];
 			}
 		}
@@ -24,17 +25,17 @@ public class Caja {
 		return productoEncontrado;
 	}
 	
-	public double totalCompra( Productos[] comprados ){
-		
+	public double totalCompra( Productos[] comprados)
+	{
 		double total = 0;
 		double[] auxiliar = new double[ comprados.length ];
 		
-		for (int i = 0; i < comprados.length; i++) {
-			
-			if (comprados[ i ] != null) {
+		for (int i = 0; i < comprados.length; i++) 
+		{	
+			if (comprados[ i ] != null) 
+			{
 				auxiliar[ i ] = comprados[ i ].getPrecio();
 			}
-			
 		}
 		
 		total = Calculadora.suma( auxiliar );
