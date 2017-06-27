@@ -20,7 +20,7 @@ public class Productos {
 		return precio;
 	}
 	
-	public void setPrecio(double precio) 
+	public void setPrecio(double precio)
 	{
 		this.precio = precio;
 	}
