@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="swing.MiVentana"/>
 <fullyQualifiedTypeName name="arraybidimensional.ui.BidimensionalHelper"/>
+<fullyQualifiedTypeName name="utils.Operaciones"/>
+<fullyQualifiedTypeName name="utils.Multiplicacion"/>
 </qualifiedTypeNameHistroy>

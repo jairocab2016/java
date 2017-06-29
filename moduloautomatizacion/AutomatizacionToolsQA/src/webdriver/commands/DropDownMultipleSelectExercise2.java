@@ -13,7 +13,7 @@ public class DropDownMultipleSelectExercise2 {
 
 	public static void main(String[] args) {
 		
-		String exePath = "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe";		
+		String exePath = "C:\\Users\\jjcardozo\\Downloads\\seleniumjava\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);		
 		
 		WebDriver driver = new ChromeDriver();

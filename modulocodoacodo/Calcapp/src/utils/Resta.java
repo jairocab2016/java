@@ -31,6 +31,7 @@ public class Resta implements Operaciones {
 		for(int i = 0; i < parametros.length; i++)
 		{
 			acumulador -= parametros[i];
+			//acumulador = ()
 		}
 		return acumulador;
 	}
