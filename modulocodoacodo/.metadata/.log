@@ -700,3 +700,1767 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2017-06-28 20:02:39.982
 !MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView' id and the 'Icon Designer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2017-07-05 20:17:04.194 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-05 20:17:37.791
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alumno.DESKTOP-H96BG9A'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:56.439
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\Calcapp\bin\controlador\Logica.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:56.441
+!MESSAGE File not found: C:\java\modulocodoacodo\Calcapp\bin\controlador\Logica.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:56.525
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Multiplicacion.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:56.525
+!MESSAGE File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Multiplicacion.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:56.544
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Operaciones.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:56.544
+!MESSAGE File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Operaciones.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:56.705
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Suma.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:56.706
+!MESSAGE File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Suma.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:56.766
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Resta.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:56.766
+!MESSAGE File not found: C:\java\modulocodoacodo\Calcapp\bin\utils\Resta.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:57.708
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\Bidimensional.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:57.708
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\Bidimensional.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.092
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\BidimensionalHelper.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.093
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\BidimensionalHelper.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.120
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\Vista.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.121
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\Vista.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.135
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\ComandosLinux.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.135
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\ComandosLinux.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.152
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Metodos.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.154
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Metodos.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.167
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Robot.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.167
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Robot.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.177
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\cuadrado\Cuadrado_Asterisco.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.178
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\cuadrado\Cuadrado_Asterisco.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.188
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\estudiante\Estudiante.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.188
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\estudiante\Estudiante.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.199
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\estudiante\TestAlumno.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.199
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\estudiante\TestAlumno.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.209
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\sumarnaturales\Robot.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.210
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\sumarnaturales\Robot.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.222
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\herencia\sobrecarga\CalApp.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.223
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\herencia\sobrecarga\CalApp.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.235
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\herencia\sobrecarga\Calculadora.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.235
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\herencia\sobrecarga\Calculadora.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.246
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\swing\Ventana.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.247
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\swing\Ventana.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.258
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\swing\VentanaTest.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.258
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\swing\VentanaTest.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.310
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\cuadrado\Robot.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.311
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\cuadrado\Robot.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.405
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\test\Bidimensional.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.405
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\test\Bidimensional.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.459
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\NotasAlumnos.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.460
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\NotasAlumnos.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:58.603
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\sumarnaturales\SumarNaturalesPares.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:58.603
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\sumarnaturales\SumarNaturalesPares.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.275
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\test\RecorrerMatricesBidimensionales.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.275
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\arraybidimensional\ui\test\RecorrerMatricesBidimensionales.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.342
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\ArreglosDias.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.343
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\ArreglosDias.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.376
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Ascensor.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.376
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Ascensor.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.432
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\CalcularAnios.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.433
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\CalcularAnios.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.459
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Casteo.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.459
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Casteo.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.482
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Conceptosbasicos.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.482
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Conceptosbasicos.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.510
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Excepciones.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.511
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Excepciones.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.528
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\HolaMundo.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.528
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\HolaMundo.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.578
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\LeerPorTeclado.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.579
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\LeerPorTeclado.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.588
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\OrdenarArreglo.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.588
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\OrdenarArreglo.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.597
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Velocidad.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.597
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Velocidad.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.608
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\ascensor\Ascensor.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.608
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\ejercicio\ascensor\Ascensor.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.641
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\mdatos\por\referencia\Punto.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.642
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\mdatos\por\referencia\Punto.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.654
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\mlista\Jugador.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.654
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\mlista\Jugador.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:17:59.668
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\mpila\Jugador.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:17:59.668
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\mpila\Jugador.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.387
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Factorial.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.388
+!MESSAGE File not found: C:\java\modulocodoacodo\CodoACodo\bin\basico\Factorial.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.440
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\PersonasMVC\bin\Aplicacion.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.440
+!MESSAGE File not found: C:\java\modulocodoacodo\PersonasMVC\bin\Aplicacion.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.474
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\PersonasMVC\bin\controlador\Logica.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.475
+!MESSAGE File not found: C:\java\modulocodoacodo\PersonasMVC\bin\controlador\Logica.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.484
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\PersonasMVC\bin\modelo\Persona.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.484
+!MESSAGE File not found: C:\java\modulocodoacodo\PersonasMVC\bin\modelo\Persona.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.498
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\PersonasMVC\bin\utils\Ayudante.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.498
+!MESSAGE File not found: C:\java\modulocodoacodo\PersonasMVC\bin\utils\Ayudante.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.509
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\PersonasMVC\bin\vista\Pantallas.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.512
+!MESSAGE File not found: C:\java\modulocodoacodo\PersonasMVC\bin\vista\Pantallas.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.789
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\CajaApp.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.789
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\CajaApp.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.810
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\controlador\Caja.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.810
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\controlador\Caja.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.830
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\modelo\Productos.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.830
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\modelo\Productos.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.847
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\modelo\StockProductos.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.847
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\modelo\StockProductos.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.876
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\utils\Calculadora.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.877
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\utils\Calculadora.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-07-05 20:18:00.894
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\java\modulocodoacodo\stockProductos\bin\vista\Pantalla.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-05 20:18:00.894
+!MESSAGE File not found: C:\java\modulocodoacodo\stockProductos\bin\vista\Pantalla.class.

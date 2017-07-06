@@ -1,0 +1,19 @@
+package controlador;
+
+import modelo.Empleado;
+
+public class Logica {
+	
+	public static void main(String[] args) {
+		
+		Empleado objeto = new Empleado();
+		objeto.crearDBEmpleados();
+		Empleado[] todosLosEmpleados = objeto.getEmpleados();
+		
+		for (Empleado empleado : todosLosEmpleados) {
+			System.out.println(empleado);
+		}
+	}
+	
+
+}

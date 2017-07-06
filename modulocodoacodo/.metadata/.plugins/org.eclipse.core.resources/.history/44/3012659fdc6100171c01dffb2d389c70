@@ -1,0 +1,9 @@
+package modelo;
+
+public class Empleado extends Persona {
+	
+	int dni;
+	double sueldo;
+	
+
+}

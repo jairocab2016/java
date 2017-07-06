@@ -1,0 +1,21 @@
+import controlador.Logica;
+import modelo.Empleado;
+import vista.Pantalla;
+
+public class Aplicacion {
+	
+	public static void main(String[] args) {
+		
+		Logica logica = new Logica();
+		Pantalla pantalla = new Pantalla();
+		Empleado empleado = new Empleado();
+		
+		String personaBuscada = pantalla.ingresarValor("Ingresar nombre de persona a buscar"); 
+		
+		empleado = logica.buscarPorNombre(personaBuscada);
+		pantalla.mostrarMensaje(empleado.getNombre());
+		empleado.datosEmpleado(empleado);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+import controlador.Logica;
+import modelo.Empleado;
+
+public class Aplicacion {
+	
+	public static void main(String[] args) {
+		
+		Logica logica = new Logica();
+		
+		
+	}
+
+}

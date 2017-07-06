@@ -1,0 +1,39 @@
+package modelo;
+
+public class Empleado extends Persona {
+	
+	int dni;
+	double sueldo;
+	Empleado[] empleados;
+	
+	public Empleado(){}
+	
+	public int getDni() {
+		return dni;
+	}
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+	public double getSueldo() {
+		return sueldo;
+	}
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	public Empleado[] getEmpleados() {
+		return empleados;
+	}
+	
+	public void crearDBEmpleados()
+	{
+		Empleado harold = new Empleado();
+		harold.setNombre("harold");
+		harold.setApellido("diaz");
+		harold.setDni(2323123);
+		harold.setSueldo(50.00);
+		empleados[0] = harold;
+		
+	}
+	
+}

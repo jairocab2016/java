@@ -1,0 +1,9 @@
+package controlador;
+
+import modelo.Empleado;
+
+public class Logica {
+	
+	Empleado objeto = new Empleado();
+
+}

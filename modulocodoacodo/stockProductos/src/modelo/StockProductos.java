@@ -6,7 +6,7 @@ public class StockProductos {
 	
 	public StockProductos() 
 	{
-		llenarProductos();	
+		llenarProductos();
 	}
 	
 	public void llenarProductos()

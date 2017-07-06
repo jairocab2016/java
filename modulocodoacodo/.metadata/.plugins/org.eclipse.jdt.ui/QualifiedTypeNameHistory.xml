@@ -13,4 +13,7 @@
 <fullyQualifiedTypeName name="arraybidimensional.ui.BidimensionalHelper"/>
 <fullyQualifiedTypeName name="utils.Operaciones"/>
 <fullyQualifiedTypeName name="utils.Multiplicacion"/>
+<fullyQualifiedTypeName name="controlador.Logica"/>
+<fullyQualifiedTypeName name="modelo.Empleado"/>
+<fullyQualifiedTypeName name="vista.Pantalla"/>
 </qualifiedTypeNameHistroy>
