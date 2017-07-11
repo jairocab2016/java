@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="controlador.Logica"/>
 <fullyQualifiedTypeName name="modelo.Empleado"/>
 <fullyQualifiedTypeName name="vista.Pantalla"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>

@@ -21,7 +21,15 @@ public class Pantalla {
 	}
 	
 	public void datosObjeto(Empleado e)
-	{	
-		mostrarMensaje("Nombre: " + e.getNombre() + "\nApellido: " + e.getApellido() + "\nDni: " + e.getDni() + "\nSueldo: " + e.getSueldo());
+	{	try 
+		{
+			mostrarMensaje("Nombre: " + e.getNombre() + "\nApellido: " + e.getApellido() + "\nDni: " + e.getDni() + "\nSueldo: " + e.getSueldo());
+		
+		} 
+		catch (NullPointerException e2) 
+		{
+			mostrarMensaje("La persona buscada no encuentra en nuestra DB");
+		}
+		
 	}
 }
