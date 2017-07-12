@@ -1,0 +1,11 @@
+
+public class HolaMundoTest
+{
+	public static void main(String[] args) 
+	{
+		int [] codigos;
+		
+		codigos = new String[5];
+		
+	}
+}

@@ -1,0 +1,45 @@
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class PrincipalTest {
+
+	public static void main(String[] args) throws IOException 
+	{
+		String textoIngresar;
+		String path = "./src/";
+		
+		Scanner lector = new Scanner(System.in);
+		
+		System.out.println("Ingresa texto a guardar");
+		textoIngresar = lector.nextLine();
+				
+		System.out.println("Ingresa nombre del archivo");
+		String nombreArchivo = lector.nextLine();
+		
+		try 
+		{
+			path = path + nombreArchivo;
+			FileWriter archivo = new FileWriter(path);
+			archivo.write(textoIngresar);
+			archivo.close();
+			System.out.println("Se guardo correctamente la informacion");
+		}
+		catch (Exception e)
+		{
+			System.out.println(e.getMessage());	
+		}
+				
+		File archivo = new File (path);
+		FileReader fr = new FileReader (archivo);
+		BufferedReader br = new BufferedReader(fr);
+		String linea = br.readLine();
+
+	}
+
+}

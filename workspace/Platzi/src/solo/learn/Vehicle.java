@@ -1,26 +1,26 @@
 package solo.learn;
 
-public class Vehicle {
-	
+public class Vehicle 
+{
 	private String color;
 	
-	public Vehicle () {
+	public Vehicle () 
+	{
 		this.setColor("Rojo");
 	}
 	
-	public Vehicle (String c) {
-		
+	public Vehicle (String c)
+	{	
 		this.setColor(c);		
 	}
 	
-	public void setColor(String c) {
-		
+	public void setColor(String c) 
+	{	
 		this.color = c;
 	}
 	
-	public String getColor() {
-		
+	public String getColor() 
+	{		
 		return color;
 	}
-
 }

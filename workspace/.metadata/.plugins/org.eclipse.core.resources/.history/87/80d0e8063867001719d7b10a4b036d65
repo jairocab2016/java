@@ -1,0 +1,18 @@
+package solo.learn;
+
+public class Animal
+{
+	String tipo;
+	String nickname;
+	
+	public Animal()
+	{
+		
+	}
+	
+	void bark() 
+	{
+		System.out.println("Woof-Woof");
+	}
+
+}

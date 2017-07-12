@@ -1,10 +1,16 @@
 package solo.learn;
 
-public class MyClass {
+public class MyClass 
+{
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		Animal dog = new Animal();
+		dog.setTipo("perro");
+		dog.setNickname("rambo");
+		
+		System.out.printf("TipoAnimal: %s\nNombre: %s\n", dog.getTipo(), dog.getNickname());
 		
 		dog.bark();
 		
@@ -17,10 +23,7 @@ public class MyClass {
 		System.out.println(Math.floor(7.343));
 		System.out.println(Math.max(14, 81));
 		System.out.println(Math.min(42, 23));
-		System.out.println(Math.pow(2, 3));
-		
-		
-		
+		System.out.println(Math.pow(2, 3));		
 	}
 
 }
