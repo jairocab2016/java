@@ -5,9 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserCommands {
 	
-	public static void main(String[] args) {
-		
-		String exePath = "C:\\Users\\alumno.DESKTOP-H96BG9A\\Desktop\\chromedriver.exe";		
+	public static void main(String[] args) 
+	{
+		String exePath = "C:\\Users\\jjcardozo\\Downloads\\selenium\\chromedriver.exe";		
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
 		
@@ -25,7 +25,5 @@ public class BrowserCommands {
 		driver.close();
 		driver.quit();
 	}
-	
-	
 
 }

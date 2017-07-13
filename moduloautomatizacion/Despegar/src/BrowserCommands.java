@@ -1,0 +1,37 @@
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserCommands {
+	
+	public static void main(String[] args) 
+	{
+		String exePath = "C:\\Users\\jjcardozo\\Downloads\\selenium\\chromedriver.exe";		
+		System.setProperty("webdriver.chrome.driver", exePath);
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.despegar.com.ar/");
+		
+		try 
+		{
+			String title = driver.getTitle();
+			String currentUrl = driver.getCurrentUrl();
+			//String sourcePage = driver.getPageSource();
+			String windowHandle = driver.getWindowHandle();
+			
+			System.out.println(title);
+			System.out.println(currentUrl);
+			System.out.println(windowHandle);
+			
+		} catch (Exception e) 
+		 {
+			System.out.println(e.getMessage());
+		 }
+		
+		
+		
+		
+		
+	}
+
+}

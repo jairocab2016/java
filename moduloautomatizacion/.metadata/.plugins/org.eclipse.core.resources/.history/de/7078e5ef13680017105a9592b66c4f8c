@@ -1,0 +1,20 @@
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserCommands {
+	
+	public static void main(String[] args) 
+	{
+		String exePath = "C:\\Users\\jjcardozo\\Downloads\\selenium\\chromedriver.exe";		
+		System.setProperty("webdriver.chrome.driver", exePath);
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("www.despegar.com");
+		String [] datosDespegar = String [5];
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+	}
+
+}
