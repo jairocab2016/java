@@ -4764,3 +4764,13 @@ java.net.ConnectException: Connection timed out: connect
 
 !ENTRY org.eclipse.core.jobs 2 2 2017-07-11 18:37:04.539
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.theming.ui.IconDownloaderJob
+                                                                                                                                                                                                                                                                                                                       !SESSION 2017-07-25 21:18:42.269 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-07-25 21:19:53.356
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView' id and the 'Icon Designer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.

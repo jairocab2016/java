@@ -675,3 +675,13 @@ Java Model Exception: Java Model Status [webdriver.commands [in <project root> [
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-07-13 18:22:02.307
 !MESSAGE webdriver.commands [in <project root> [in AutomatizacionToolsQA]] does not exist
+!SESSION 2017-07-25 21:14:20.165 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-07-25 21:15:07.623
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView' id and the 'Icon Designer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
