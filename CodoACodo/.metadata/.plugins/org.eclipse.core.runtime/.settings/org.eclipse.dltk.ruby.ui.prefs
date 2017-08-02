@@ -1,4 +1,5 @@
 DLTK_comment_task_tag=204,223,50
+DLTK_comment_task_tag_bold=true
 DLTK_comment_task_tag_italic=false
 DLTK_default=216,216,216
 DLTK_doc=204,223,50
@@ -11,6 +12,7 @@ DLTK_keyword_return=255,255,255
 DLTK_keyword_return_bold=false
 DLTK_number=127,179,71
 DLTK_single_line_comment=199,221,12
+DLTK_single_line_comment_bold=false
 DLTK_single_line_comment_italic=false
 DLTK_string=255,198,0
 DLTK_string.eval=255,198,0
