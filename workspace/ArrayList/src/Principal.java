@@ -5,16 +5,16 @@ public class Principal {
 	
 	public static void main(String[] args)
 	{
-		// Declaración el ArrayList
+		// Declaracion el ArrayList
 		ArrayList<String> nombreArrayList = new ArrayList<String>();
 
-		// Añadimos 10 Elementos en el ArrayList
+		// AÃ±adimos 10 Elementos en el ArrayList
 		for (int i=1; i<=10; i++)
 		{
 			nombreArrayList.add("Elemento "+i); 
 		}
 		
-		// Añadimos un nuevo elemento al ArrayList en la posición 2
+		// AÃ±adimos un nuevo elemento al ArrayList en la posicion 2
 		nombreArrayList.add(2, "Elemento 3");
 		
 		// Declaramos el Iterador e imprimimos los Elementos del ArrayList
@@ -30,7 +30,7 @@ public class Principal {
 		int numElementos = nombreArrayList.size();
 		System.out.println("El ArrayList tiene "+numElementos+" elementos");
 		
-		// Eliminamos el primer elemento del ArrayList, es decir el que ocupa la posición '0'
+		// Eliminamos el primer elemento del ArrayList, es decir el que ocupa la posicion '0'
 		System.out.println("... Eliminamos el primer elemento del ArrayList ("+nombreArrayList.get(0)+")...");
 		nombreArrayList.remove(0);
 		
