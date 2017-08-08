@@ -10,7 +10,7 @@ public class Pantalla {
 		JFrame frame = new JFrame();
 		String valorIngresado = JOptionPane.showInputDialog(frame, titulo);
 		return valorIngresado;
-	};
+	}
 	
 	public void mostrarMensaje(String mensaje)
 	{
