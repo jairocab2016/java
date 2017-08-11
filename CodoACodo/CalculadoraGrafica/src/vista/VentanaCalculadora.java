@@ -58,7 +58,8 @@ public class VentanaCalculadora extends JFrame {
 	/**
 	 * Constructor. Crea los botones y componentes de la calculadora
 	 */
-	public VentanaCalculadora() {
+	public VentanaCalculadora() 
+	{
 		super();
 		setSize(250, 300);
 		setTitle("Calculadora Simple");
@@ -112,13 +113,15 @@ public class VentanaCalculadora extends JFrame {
 	 * @param digito
 	 *            boton a crear
 	 */
-	private void nuevoBotonNumerico(String digito) {
+	private void nuevoBotonNumerico(String digito) 
+	{
 		JButton btn = new JButton();
 		btn.setText(digito);
-		btn.addMouseListener(new MouseAdapter() {
-
+		btn.addMouseListener(new MouseAdapter() 
+		{
 			@Override
-			public void mouseReleased(MouseEvent evt) {
+			public void mouseReleased(MouseEvent evt) 
+			{
 				JButton btn = (JButton) evt.getSource();
 				numeroPulsado(btn.getText());
 			}
@@ -132,14 +135,18 @@ public class VentanaCalculadora extends JFrame {
 	 * 
 	 * @param operacion
 	 */
-	private void nuevoBotonOperacion(String operacion) {
+	private void nuevoBotonOperacion(String operacion) 
+	{
 		JButton btn = new JButton(operacion);
+		
 		btn.setForeground(Color.RED);
+		btn.setText(operacion);
 
-		btn.addMouseListener(new MouseAdapter() {
-
+		btn.addMouseListener(new MouseAdapter() 
+		{
 			@Override
-			public void mouseReleased(MouseEvent evt) {
+			public void mouseReleased(MouseEvent evt) 
+			{
 				JButton btn = (JButton) evt.getSource();
 				operacionPulsado(btn.getText());
 			}
@@ -154,21 +161,23 @@ public class VentanaCalculadora extends JFrame {
 	 * @param digito
 	 *            tecla pulsada
 	 */
-	private void numeroPulsado(String digito) {
+	private void numeroPulsado(String digito) 
+	{
 		if (pantalla.getText().equals("0") || nuevaOperacion) {
 			pantalla.setText(digito);
 		} else {
-			pantalla.setText(pantalla.getText() + digito);
+			//pantalla.setText(pantalla.getText() + digito);
 		}
 		nuevaOperacion = false;
 	}
-
+	
 	/**
 	 * Gestiona el gestiona las pulsaciones de teclas de operación
 	 * 
 	 * @param tecla
 	 */
-	private void operacionPulsado(String tecla) {
+	private void operacionPulsado(String tecla) 
+	{
 		if (tecla.equals("=")) {
 			calcularResultado();
 		} else if (tecla.equals("CE")) {
@@ -177,7 +186,10 @@ public class VentanaCalculadora extends JFrame {
 			nuevaOperacion = true;
 		} else {
 			operacion = tecla;
-			if ((resultado > 0) && !nuevaOperacion) {
+			System.out.println(operacion);
+//			pantalla.setText(operacion);
+			if ((resultado > 0) && !nuevaOperacion) 
+			{
 				calcularResultado();
 			} else {
 				resultado = new Double(pantalla.getText());
@@ -190,7 +202,8 @@ public class VentanaCalculadora extends JFrame {
 	/**
 	 * Calcula el resultado y lo muestra por pantalla
 	 */
-	private void calcularResultado() {
+	private void calcularResultado() 
+	{
 		if (operacion.equals("+")) {
 			resultado += new Double(pantalla.getText());
 		} else if (operacion.equals("-")) {

@@ -8,10 +8,10 @@ import java.sql.Statement;
 
 public class BaseDeDatos {
 	
-	private final String URL 		= "jdbc:mysql://SR-SIGMABASE-DD01/";
-	private final String DB 		= "sg_managment";
+	private final String URL 		= "jdbc:mysql://localhost/";
+	private final String DB 		= "testing";
 	private final String USUARIO	= "root";
-	private final String PASSWORD 	= "root";
+	private final String PASSWORD 	= "";
 	
 	public Connection conexion = null;
 	
@@ -28,7 +28,7 @@ public class BaseDeDatos {
 			}
 			
 			Statement sentencia =  conexion.createStatement();
-			ResultSet consultar = sentencia.executeQuery("select description from cmts");
+			ResultSet consultar = sentencia.executeQuery("select * from tabla");
 			while (consultar.next()){
 				
 				System.out.println(consultar.getString("description"));
