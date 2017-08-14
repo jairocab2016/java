@@ -1,0 +1,7 @@
+
+public class Prueba 
+{
+	private double x;
+	public Prueba(){x= -1.0;}
+	
+}

@@ -1,0 +1,23 @@
+
+public class DiaAnyo 
+{
+	private int dia;
+	private int mes;	
+	
+	public DiaAnyo(int d, int m)
+	{
+		this.dia = d;
+		this.mes = m;
+	}
+	
+	public void igual()
+	{
+		
+	}
+	
+	public void visualizar()
+	{
+		
+	}
+
+}

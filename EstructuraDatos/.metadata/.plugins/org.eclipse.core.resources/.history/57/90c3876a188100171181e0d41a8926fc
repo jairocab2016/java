@@ -1,0 +1,18 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Cumple
+{
+	public static void main(String[] args) throws IOException
+	{
+		DiaAnyo hoy;
+		DiaAnyo cumpleanyos;
+		int d, m;
+		
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Introduzca fecha de hoy, dia: ");
+		d = Integer.parseInt(entrada.readLine());
+	}
+}

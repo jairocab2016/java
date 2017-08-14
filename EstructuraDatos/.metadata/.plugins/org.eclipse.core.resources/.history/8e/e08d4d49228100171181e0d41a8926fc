@@ -1,0 +1,10 @@
+
+public class ProbarDemo 
+{
+	public static void main(String[] args)
+	{
+		Demo d1, d2;
+		Prueba p1, p2;
+	}
+
+}

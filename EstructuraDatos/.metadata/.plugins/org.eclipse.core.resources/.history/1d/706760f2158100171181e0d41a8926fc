@@ -1,0 +1,18 @@
+
+public class DiaAnyo 
+{
+	private int mes;
+	private int dia;
+	
+	
+	public void igual()
+	{
+		
+	}
+	
+	public vooid visualizar()
+	{
+		
+	}
+
+}

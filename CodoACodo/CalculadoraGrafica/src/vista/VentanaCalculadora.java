@@ -166,7 +166,7 @@ public class VentanaCalculadora extends JFrame {
 		if (pantalla.getText().equals("0") || nuevaOperacion) {
 			pantalla.setText(digito);
 		} else {
-			//pantalla.setText(pantalla.getText() + digito);
+			pantalla.setText(pantalla.getText() + digito);
 		}
 		nuevaOperacion = false;
 	}

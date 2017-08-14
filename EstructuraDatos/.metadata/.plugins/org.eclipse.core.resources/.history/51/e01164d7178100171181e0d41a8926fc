@@ -1,0 +1,10 @@
+import java.io.IOException;
+
+public class Cumple 
+{
+	public static void main(String[] args) throws IOException
+	{
+		DiaAnyo hoy;
+		DiaAnyo cumpleanyos;
+	}
+}

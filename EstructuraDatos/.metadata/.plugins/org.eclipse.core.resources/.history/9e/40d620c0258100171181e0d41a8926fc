@@ -1,0 +1,10 @@
+
+public class ProbarEjemplo 
+{
+	public static void main(String[] args) 
+	{
+		Ejemplo d1, d2;
+		
+		System.out.println("Objeto Ejemplo: " + Ejemplo.cuenta);
+	}
+}
