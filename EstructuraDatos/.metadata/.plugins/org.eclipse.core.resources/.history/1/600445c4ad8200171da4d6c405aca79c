@@ -1,0 +1,11 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Inicial 
+{
+	public static void main(String [] args)
+	{
+		final int NUM = 10;
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+	}
+}

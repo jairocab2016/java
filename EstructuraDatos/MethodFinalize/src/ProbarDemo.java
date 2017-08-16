@@ -18,5 +18,4 @@ public class ProbarDemo
 		d2 = new Demo();
 		// se liberan objetos restantes
 	}
-
 }
