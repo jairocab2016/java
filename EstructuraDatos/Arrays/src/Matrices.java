@@ -30,7 +30,5 @@ public class Matrices
 		gr[0] = new double[3];
 		gr[1] = new double[6];
 		gr[2] = new double[5];
-		
-		
 	}
 }

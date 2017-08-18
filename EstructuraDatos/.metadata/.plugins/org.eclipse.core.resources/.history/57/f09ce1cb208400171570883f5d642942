@@ -1,0 +1,13 @@
+
+public class ArrayComoParametros 
+{
+	void cambiar()
+	{
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}
