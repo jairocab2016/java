@@ -1,9 +1,0 @@
-
-public class Cumple 
-{
-	public static void main(String[] args)
-	{
-		DiaAnyo hoy;
-		DiaAnyo cumpleanyos;
-	}
-}

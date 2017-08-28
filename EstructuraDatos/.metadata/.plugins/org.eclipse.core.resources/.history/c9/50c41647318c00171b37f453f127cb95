@@ -10,10 +10,9 @@ public class ArrayComoParametros
 	{
 		char palabra[] = {'A', 'B', 'C', 'D'};
 		cambiar(palabra);
-		
 		for(int i= 0; i < palabra.length; i++)
 		{
-			System.out.println(palabra[i]);
-		}	
+			
+		}
 	}
 }

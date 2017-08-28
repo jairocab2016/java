@@ -14,7 +14,7 @@ public class Inicial
 		int total = 1;
 		System.out.println("Por favor, introduzca " + NUM + " datos");
 		
-		for (int i = 0; i < NUM; i++) 
+		for (int i = 0; i < NUM; i++)
 		{
 			nums[i] = Integer.parseInt(entrada.readLine());
 		}

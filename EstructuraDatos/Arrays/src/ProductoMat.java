@@ -13,7 +13,8 @@ public class ProductoMat
 		v = new double[n];
 		leerArray(v);
 		
-		for (int i = 0; i < v.length; i++) {
+		for (int i = 0; i < v.length; i++) 
+		{
 			System.out.println("Elemento " + i + ": " + v[i]);
 		}
 		
