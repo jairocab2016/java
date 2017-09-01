@@ -1,0 +1,8 @@
+
+public class DerivSobre extends BaseSobre 
+{
+	public void escribe(String a, int n)
+	{
+		
+	}
+}

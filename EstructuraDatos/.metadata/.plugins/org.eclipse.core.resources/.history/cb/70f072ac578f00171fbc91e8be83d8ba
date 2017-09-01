@@ -1,0 +1,9 @@
+
+public class PruebaSobre 
+{
+	public static void main()
+	{
+		DerivSobre dr = new DerivSobre();
+		dr.escribe("Cadena constante ", 50);
+	}
+}

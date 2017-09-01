@@ -14,8 +14,10 @@ public class ProbarEjemplo
 		System.gc();
 		System.out.println("Objetos Ejemplo: " + Ejemplo.cuenta);
 		
-		d2 = d1 = null;
-		System.gc();
-		System.out.println("Objetos Ejemplo: " + Ejemplo.cuenta);
+//		d2 = d1 = null;
+//		System.gc();
+//		System.out.println("Objetos Ejemplo: " + Ejemplo.cuenta);
+		d1 = d2 = null;
+		System.out.println(Ejemplo.cuenta);
 	}
 }

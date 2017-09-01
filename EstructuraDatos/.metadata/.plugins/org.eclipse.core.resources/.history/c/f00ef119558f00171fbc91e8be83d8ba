@@ -1,0 +1,8 @@
+
+public class BaseSobre 
+{
+	public void escribe()
+	{
+		
+	}
+}

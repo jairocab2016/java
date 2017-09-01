@@ -1,0 +1,23 @@
+
+public class ProbarEjemplo 
+{
+	public static void main(String[] args) 
+	{
+		Ejemplo d1, d2;
+		
+		System.out.println("Objeto Ejemplo: " + Ejemplo.cuenta);
+		d1 = new Ejemplo();
+		d2 = new Ejemplo(11);
+		System.out.println("Objeto Ejemplo: " + Ejemplo.cuenta);
+		
+		d2 = d1;
+		System.gc();
+		System.out.println("Objetos Ejemplo: " + Ejemplo.cuenta);
+		
+//		d2 = d1 = null;
+//		System.gc();
+//		System.out.println("Objetos Ejemplo: " + Ejemplo.cuenta);
+		d1, d2 = null;
+		System.out.println(Ejemplo.cuenta);
+	}
+}
