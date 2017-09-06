@@ -1,0 +1,13 @@
+
+public class AlarmasDeBarcos 
+{
+	public static void main(String[] args) 
+	{
+		Barco[] bs = new Barco[2];		
+		DeVapor mss = new DeVapor();
+		Velero vss = new Velero();
+		
+		Barco[0] = dv;
+		
+	}
+}

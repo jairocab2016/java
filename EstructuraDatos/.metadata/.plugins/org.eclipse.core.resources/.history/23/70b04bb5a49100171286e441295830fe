@@ -1,0 +1,15 @@
+
+public class Velero	extends Barco 
+{
+	public Velero()
+	{
+		
+	}
+	
+	@Override
+	public void alarma() {
+		// TODO Auto-generated method stub
+		super.alarma();
+	}
+	
+}

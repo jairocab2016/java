@@ -1,0 +1,8 @@
+
+public class DeVapor 
+{
+	public DeVapor()
+	{
+		System.out.println();
+	}
+}

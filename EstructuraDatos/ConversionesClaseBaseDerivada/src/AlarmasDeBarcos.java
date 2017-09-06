@@ -1,0 +1,14 @@
+
+public class AlarmasDeBarcos 
+{
+	public static void main(String[] args) 
+	{
+		Barco[] bs = new Barco[2];		
+		DeVapor mss = new DeVapor();
+		Velero vss = new Velero();
+		
+		bs[0] = mss; bs[1] = vss;
+		
+		for(int i = 0; i < 2;) bs[i++].alarma();		
+	}
+}

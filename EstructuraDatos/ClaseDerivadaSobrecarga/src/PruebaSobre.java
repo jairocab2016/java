@@ -6,8 +6,6 @@ public class PruebaSobre
 		DerivSobre dr = new DerivSobre();
 		dr.escribe(50);
 		dr.escribe("Cadena constante ");
-		dr.escribe("Cadena constante ", 50);
-		
-		
+		dr.escribe("Cadena constante ", 50);		
 	}
 }

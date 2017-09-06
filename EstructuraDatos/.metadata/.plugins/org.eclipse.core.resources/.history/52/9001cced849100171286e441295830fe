@@ -1,0 +1,15 @@
+
+public class DerivSobre extends BaseSobre 
+{
+	
+	public DerivSobre(int valor)
+	{
+		super(valor);
+		System.out.println("Objeto creado derivado");
+	}
+	public void escribe(String a, int n)
+	{
+		System.out.print("Metodo clase derivada, dos argumentos: ");
+		System.out.println(a + " " + n);
+	}
+}

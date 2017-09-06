@@ -1,0 +1,8 @@
+
+public class DeVapor 
+{
+	public DeVapor()
+	{
+		System.out.println("Se crea la parte del barco de Vapor");
+	}
+}

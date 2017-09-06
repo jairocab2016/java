@@ -1,0 +1,8 @@
+
+public class D extends Dh 
+{
+	public D()
+	{
+		System.out.println("Constructor-D");
+	}
+}

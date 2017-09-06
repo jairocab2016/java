@@ -1,0 +1,12 @@
+
+public class B1 
+{
+	public B1() 
+	{
+		public void B1()
+		{
+			System.out.println("");
+		}
+	}
+	
+}
