@@ -12,8 +12,10 @@
 <fullyQualifiedTypeName name="DerivSobre"/>
 <fullyQualifiedTypeName name="BaseSobre"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-<fullyQualifiedTypeName name="Barco"/>
 <fullyQualifiedTypeName name="Velero"/>
 <fullyQualifiedTypeName name="DeVapor"/>
+<fullyQualifiedTypeName name="BarcoPasaje"/>
+<fullyQualifiedTypeName name="Barco"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="Pesquero"/>
 </qualifiedTypeNameHistroy>

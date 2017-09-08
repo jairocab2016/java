@@ -1,0 +1,10 @@
+
+public class Pesquero implements Barco 
+{
+	private int eslora;
+	private double potencia;
+	private int pescadores;
+	String nombre;
+	
+	
+}

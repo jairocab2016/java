@@ -1,0 +1,11 @@
+
+public class PortaAvion 
+{
+	private int aviones = 19;
+	private int tripulacion;
+	
+	public PortaAvion()
+	{
+		
+	}
+}

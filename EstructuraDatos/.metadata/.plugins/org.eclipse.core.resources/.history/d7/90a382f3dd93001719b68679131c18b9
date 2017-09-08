@@ -1,0 +1,12 @@
+
+public class PortaAvion 
+{
+	private int aviones = 19;
+	private int tripulacion;
+	
+	public PortaAvion(int marinos)
+	{
+		tripulacion = marinos;
+		System.out.println();
+	}
+}

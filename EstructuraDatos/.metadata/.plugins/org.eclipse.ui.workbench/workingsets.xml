@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1504295968882_1" label="Herencia" name="Herencia">
-<item elementID="=ClaseDerivadaSobrecarga" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ConstructoresEnHerencia" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ConversionesClaseBaseDerivada" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ClaseDerivadaSobrecarga" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConversionesClaseBaseDerivada" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConstructoresEnHerencia" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Interfaces" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1502218782573_0" label="Window Working Set" name="Aggregate for window 1502218782573"/>
 <mruList name="Herencia"/>
