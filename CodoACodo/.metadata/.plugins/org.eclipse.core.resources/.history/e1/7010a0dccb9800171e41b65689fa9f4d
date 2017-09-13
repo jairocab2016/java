@@ -1,0 +1,37 @@
+import javax.swing.text.AbstractDocument.Content;
+
+public class Contenedor 
+{
+	private static int cantidadChicle = 0;
+	
+	public void ingresarChicle(int cantCh)
+	{
+		if (cantCh > 0) 
+		{
+			cantidadChicle += cantCh;
+		} else {
+			System.out.println("No se puede ingresar un valor negativo o cero");
+		}		
+	}
+	
+	public void entregarChicle(int cantMon)
+	{
+		if (cantidadChicle > 0 && cantidadChicle >= cantMon)
+		{
+			cantidadChicle -= cantMon;
+			System.out.println("Chicles vendidos: " + cantMon);
+		} else {
+			System.out.println("Lo sentimos, nos quedamos sin chicles");
+		}
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		Contenedor conten = new Contenedor();
+		System.out.println(Contenedor.cantidadChicle);
+		conten.ingresarChicle(2);
+		System.out.println(Contenedor.cantidadChicle);
+		conten.entregarChicle(3);
+	}
+}
